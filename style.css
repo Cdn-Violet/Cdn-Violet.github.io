@@ -1,0 +1,136 @@
+    
+   #style.css
+
+    
+       /* paragraph contents */
+    #content{
+        height: 300px;
+        position: absolute;
+        top: 30%;
+        color: black;
+        font-family: 'Courier New', Courier, monospace;
+        }
+    /*key words requiring specific rules */
+    #bpd{
+        color:red;
+    }
+    #top1{
+        position: absolute;
+        top: 10%;
+        left: 10%;
+    }
+    #top2{
+        position: absolute;
+        top: 10%;
+        left:35%;
+    }
+    #top3{
+        position: absolute;
+        top: 10%;
+        left:55%;
+    }
+    #top4{
+        position: absolute;
+        top: 10%;
+        left:87%; 
+    }
+    #paintings{
+        position: absolute;
+        top : 20%;
+        left: 3%;
+    }
+    #charms{
+        position: absolute;
+        top : 20%;
+        left : 30%;
+    }
+    #necklaces{
+        position: absolute;
+        top : 20%;
+        left:55%;
+    }
+    #decor{
+        position: absolute;
+        top : 20%;
+        left : 85%;
+    }
+    #about{
+        position: absolute;
+        top:30%;
+        left: 50%;
+    }
+    #content-about{
+        position: absolute;
+        top:35%;
+        left: 50%;
+    }
+    #who{
+        position: absolute;
+        top:60%;
+        left: 50%;
+    }
+    #content-who{
+        position: absolute;
+        top: 65%;
+        left: 50%;
+    }
+    #why{
+        position: absolute;
+        top: 120%;
+        left: 50%;
+    }
+    #content-why{
+        position: absolute;
+        top: 125%;
+        left: 50%;
+    }
+    #order{
+        position: absolute;
+        top: 145%;
+        left: 50%;
+    }
+    #content-order{
+        position: absolute;
+        top: 150%;
+        left: 50%;
+    }
+    /* headings for pictures on main page */
+    #main-headings{
+        color: rgb(80, 118, 150);
+    }
+    #company-name{
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 900;
+        color: rgb(21, 3, 73);
+        background-color: cornsilk;
+        position:fixed;
+        top: 5px;
+        width: 100%;
+        z-index: 2;
+        text-align: center;
+    }
+    #caption{
+        position: absolute;
+        top: 30%;
+        left: 3%;
+        width: 40%;
+        text-align: center;
+
+    }
+    #heading-picture{
+        border: 15px inset navy;
+        margin: 5px;
+        padding: 5px;
+        width: 100%;
+        top: 30%;
+        left: 3%
+    }
+    
+
+    /* styling for images */
+    /* pictures on the top of the page leading to each selection */
+    
+    
+
+
+
