@@ -1,64 +1,50 @@
-<!doctypehtml>
+<!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
-        <title> My First Webpage </title>
+        <! title of webpage seen on browser bar >
+        <title>Taras-Creations</title>
     </head>
-  <style>
-        h1{
-            font-family:cursive;
-            font-size:42px;
-            text-align:center;
-            color:rgb(148, 35, 148);
-        }   
-        h3{
-            font-family:sans-serif;
-            text-decoration:underline;
-            }
-        h4{
-            text-align:right;
-            font-style:italic;
-            font-weight:bold;
-        }
-        h2{
-            line-height:40px;
-            border-top:2px solid;
-            border-bottom:2px solid;
-        }
-        p{
-            font-family:monospace;
-            color:rgb(61, 20, 61);
-            font-size:14px;
-        }
-        #picture{
-            width:20%;
-            position:absolute;
-            top:50px;
-            left:50px;
-        }
-        
-    </style>
-    
+
+        <! link to css stylesheet >
+        <link rel="stylesheet" href = "style.css">
+
     <body>
-        
-        <h1>My First Website Blog</h1>
-        <img id="picture" src="https://github.com/Cdn-Violet/Cdn-Violet.github.io/blob/main/mybug.jpg" alt="dragonfly picture"/>
-        <h3>Contents</h3>
-        <ul>
-            <li><a href="#intro">Hello</a></li>
-            <li><a href ="#post-one">Where I am now...</a></li>
-        </ul>
-        
-        <h2 id="intro">Hello!</h2>
-        <h4>August 23, 2024</h4>
-        
-        <p>I have used Khan Academy for many years to learn topics I was interested in or when I needed extra help in University with topics like Advanced Statistics. When I decided I wanted to go back to school again, this time to learn computer programming, I turned to Khan Academy again, knowing I would have access to great learning material. Now I am on the waitlist for an IT Programming course and loving what I have been learning here so far. I feel like when I actually start my classes I will have a good base of knowledge to start from. And the confidence to know I am capable of learning a topic I knew nothingin about only 2 short months ago.</p>
-        
-        <h2 id="post-one">Where I am now...</h2>
-        <h4>August 24, 2024</h4>
-        
-        <p> I have learned so much since I started it surprises even me. I began with zero coding knowledge and very little knowledge in the area of computer science. However, I now feel confident that I can use basic Java Script and enough HTML and CSS to begin building my own webpage. It feels amazing to be learning a new skill. The computer science is a bit harder but I am beginning to make progress on the algorithms and how to work with big data so I am proud of myself.Does this update immediatly</p>
-        
-        
+        <! Page heading, company title >
+        <h1 id = "company-name">Tara's Creations</h1>
+        <a href = #about><h3  id = "top1" >About the Company</h3></a>
+        <a href = #who><h3 id = "top2" >Who Am I?</h3></a>
+        <a href = #why><h3 id = "top3">What's the Point?</h3></a>
+        <a href = #order><h3 id = "top4">How to Order</h3></a>
+        <script>
+            
+        </script>
+        <! images of creations with link to each collection >
+        <a id ="#paintings"><h2 id="paintings">Paintings</h2></a>
+        <a id = "#charms"><h2 id="charms">Charms</h2></a>
+        <a id ="#necklaces"><h2 id="necklaces">Necklaces</h2></a>
+        <a id ="#decor"><h2 id="decor">Home Decor</h2></a>
+
+    <div id="caption">
+        <figure>
+            <img id = "heading-picture" src="beautiful-view-from-camp.jpg" alt="smugglers cove"/>
+            <figcaption>Smugglers Cove, Yarmouth County, Nova Scotia</figcaption>
+        </figure>
+    </div>
+
+        <! Company information containing headings and text describing the company>
+        <a id = #about><h3 id="about"><u>About the Company</u></h3></a>
+        <p id="content-about"></p>
+        <a id = "#who"><h3 id="who"><u>Who am I?</u></h3></a>
+        <p id="content-who"> Born and raised in Nova Scotia Canada, I have always loved two things. Spending my time outdoors and creating beautiful things. However, as someone living with <a href = "https://en.wikipedia.org/wiki/Borderline_personality_disorder"><strong id="bpd">borderline personality disorder</a>.</strong> This disorder is widely misunderstood and difficult to treat. However, with time (<i>30+ years</i>) and research (<i>7 years obtaining an undergrad degree in psychology</i>), I am beginning to understand myself. **insert laugh**<br/>
+        One of the biggest lessons I learned is that nature is healing. The only thing that consistently keeps me feeling grounded is being near nature. Since I am lucky enough to live in Nova Scotia I am abe to do this on a regular basis; I can spend time camping in the woods, kayaking on numerous lakes and rivers, hiking amazing seaside trails, or soaking in the sun at one of our amazing beaches.<br/>
+        The other thing I learned is that being able to do what I love, while also keeping the lights on, was possibly a matter of life and death as far as my mental health was concerned. So I decided to learn skills that I could do anywhere I wanted to be. I can collect beautiful flowers, stones, and shells to work into a project; I can sit at a bench designing my next creation; I can paint or make charms on the weekends when I am visinting my family and things get quiet; or, I can write websites sitting by a river with no internet access (<i>like I'm doing right now</i>).</p>
+    <a id="#why"><h3 id="why"> <u>What's the Point?</u></h3></a>
+        <p id="content-why"> Mental health services, like all other health services in Nova scotia, are at a crisis point. I would like to be able to help those in need and donate $1 from the sale of each item to small organizations in Nova Scotia that offer mental health support in rural communities. While all donations raised will go towatds mental health organizations, you will be able to choose from a variety of organizations. Also, you will be able to see a daily update of donations so that you can watch the amount grow.</p>
+    <a id="#order"><h3 id ="order"><u>How to Order</u></h3></a>
+        <p id="content-order"> </p>
+    <a id="paintings"><h2>Paintings</h2></a>
+    <a id="charms"><h2>Charms</h2></a>
+    <a id="necklaces"><h2>Necklaces</h2></a>
+    <a id="decor"><h2>Home Decor</h2></a>
     </body>
 </html>
