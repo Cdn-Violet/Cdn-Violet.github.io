@@ -1,136 +1,190 @@
-    
-   #style.css
+#style.css
+/* paragraph contents */
+#content{
+    height: 300px;
+    position: absolute;
+    top: 30%;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    }
+/*key words requiring specific rules */
+#bpd{
+    color:red;
+}
+#top1{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+#top2{
+    position: absolute;
+    top: 10%;
+    left:35%;
+}
+#top3{
+    position: absolute;
+    top: 10%;
+    left:55%;
+}
+#top4{
+    position: absolute;
+    top: 10%;
+    left:87%; 
+}
+#paintings{
+    position: absolute;
+    top : 20%;
+    left: 3%;
+}
+#charms{
+    position: absolute;
+    top : 20%;
+    left : 30%;
+}
+#necklaces{
+    position: absolute;
+    top : 20%;
+    left:55%;
+}
+#decor{
+    position: absolute;
+    top : 20%;
+    left : 85%;
+}
+#about{
+    position: absolute;
+    top:30%;
+    left: 50%;
+}
+#content-about{
+    position: absolute;
+    top:35%;
+    left: 50%;
+}
+#who{
+    position: absolute;
+    top:60%;
+    left: 50%;
+}
+#content-who{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+}
+#why{
+    position: absolute;
+    top: 110%;
+    left: 50%;
+}
+#content-why{
+    position: absolute;
+    top: 115%;
+    left: 50%;
+}
+#contact{
+    position: absolute;
+    top: 145%;
+    left: 50%;
+}
+#contact-order{
+    position: absolute;
+    top: 150%;
+    left: 50%;
+}
+#shopping-decor{
+    position: absolute;
+    top:200%;
+    width:100%;
+    text-align: center;
+}
+#decor1{
+    position: absolute;
+    top:210%;
+    left:5px;
+    width: 45%;
+    padding: 20px;
+}
 
-    
-       /* paragraph contents */
-    #content{
-        height: 300px;
-        position: absolute;
-        top: 30%;
-        color: black;
-        font-family: 'Courier New', Courier, monospace;
-        }
-    /*key words requiring specific rules */
-    #bpd{
-        color:red;
-    }
-    #top1{
-        position: absolute;
-        top: 10%;
-        left: 10%;
-    }
-    #top2{
-        position: absolute;
-        top: 10%;
-        left:35%;
-    }
-    #top3{
-        position: absolute;
-        top: 10%;
-        left:55%;
-    }
-    #top4{
-        position: absolute;
-        top: 10%;
-        left:87%; 
-    }
-    #paintings{
-        position: absolute;
-        top : 20%;
-        left: 3%;
-    }
-    #charms{
-        position: absolute;
-        top : 20%;
-        left : 30%;
-    }
-    #necklaces{
-        position: absolute;
-        top : 20%;
-        left:55%;
-    }
-    #decor{
-        position: absolute;
-        top : 20%;
-        left : 85%;
-    }
-    #about{
-        position: absolute;
-        top:30%;
-        left: 50%;
-    }
-    #content-about{
-        position: absolute;
-        top:35%;
-        left: 50%;
-    }
-    #who{
-        position: absolute;
-        top:60%;
-        left: 50%;
-    }
-    #content-who{
-        position: absolute;
-        top: 65%;
-        left: 50%;
-    }
-    #why{
-        position: absolute;
-        top: 120%;
-        left: 50%;
-    }
-    #content-why{
-        position: absolute;
-        top: 125%;
-        left: 50%;
-    }
-    #order{
-        position: absolute;
-        top: 145%;
-        left: 50%;
-    }
-    #content-order{
-        position: absolute;
-        top: 150%;
-        left: 50%;
-    }
-    /* headings for pictures on main page */
-    #main-headings{
-        color: rgb(80, 118, 150);
-    }
-    #company-name{
-        font-family: 'Courier New', Courier, monospace;
-        font-weight: 900;
-        color: rgb(21, 3, 73);
-        background-color: cornsilk;
-        position:fixed;
-        top: 5px;
-        width: 100%;
-        z-index: 2;
-        text-align: center;
-    }
-    #caption{
-        position: absolute;
-        top: 30%;
-        left: 3%;
-        width: 40%;
-        text-align: center;
+/* headings for pictures on main page */
+#main-headings{
+    color: rgb(80, 118, 150);
+}
+#company-name{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    color: rgb(21, 3, 73);
+    background-color: cornsilk;
+    position:fixed;
+    top: 5px;
+    width: 100%;
+    z-index: 2;
+    text-align: center;
+}
+#caption{
+    position: absolute;
+    top: 30%;
+    left: 3%;
+    width: 40%;
+    text-align: center;
 
-    }
-    #heading-picture{
-        border: 15px inset navy;
-        margin: 5px;
-        padding: 5px;
-        width: 100%;
-        top: 30%;
-        left: 3%
-    }
-    
+}
+#heading-picture{
+    border: 15px inset navy;
+    margin: 5px;
+    padding: 5px;
+    width: 100%;
+    top: 30%;
+    left: 3%
+}
+.card {
+box-shadow: 0 4px 8px 0 violet;
+position: absolute;
+max-width: 300px;
+margin: auto;
+text-align: center;font-family: 'Courier New', Courier, monospace;
+}
+#cube1-picture{
+    width: 50%;
+}
+#container1{
+position:absolute;
+top: 150%;
+width:50%;
+padding:12px;
+border:1 px solid rebeccapurple;
+border-radius: 4px;
+box-sizing: border-box;
+margin-top: 6px;
+margin-bottom: 16px;
+resize: vertical;
+}
+input[type=submit]{
+background-color: aliceblue;
+color: antiquewhite;
+padding: 12px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}   
+input[type=submit]:hover{
+background-color: blueviolet;
+}
 
-    /* styling for images */
-    /* pictures on the top of the page leading to each selection */
-    
-    
-
-
-
+.price {
+color: blueviolet;
+font-size: 22px;
+}
+.card button{
+border: none;
+outline: 0;
+padding: 12px;
+color: azure;
+background-color: black;
+text-align: center;
+cursor: pointer;
+width: 100%;
+font-size: 18px;
+}
+.card button:hover{
+opacity: 0.7;
+}
