@@ -14,10 +14,8 @@
         <a href = #about><h3  id = "top1" >About the Company</h3></a>
         <a href = #who><h3 id = "top2" >Who Am I?</h3></a>
         <a href = #why><h3 id = "top3">What's the Point?</h3></a>
-        <a href = #order><h3 id = "top4">How to Order</h3></a>
-        <script>
-            
-        </script>
+        <a href = #contact><h3 id = "top4">Contact the Company</h3></a>
+        
         <! images of creations with link to each collection >
         <a id ="#paintings"><h2 id="paintings">Paintings</h2></a>
         <a id = "#charms"><h2 id="charms">Charms</h2></a>
@@ -30,21 +28,41 @@
             <figcaption>Smugglers Cove, Yarmouth County, Nova Scotia</figcaption>
         </figure>
     </div>
-
         <! Company information containing headings and text describing the company>
         <a id = #about><h3 id="about"><u>About the Company</u></h3></a>
-        <p id="content-about"></p>
+        <p id="content-about">Started in 2024, <id = "inline-name">Tara's Creations</id> was a way to put my love for creating things to work. I have always loved artistc hobbies and over the years, I have enjoyed trying different mediums to help fulfill the desire to create that I have always felt. After being told many times that I should sell my work, I decided to take the plunge. My goal is to continue crafting beautiful things and raise money for Mental Health Awareness. I have included a selection of necklaces, purse/backpack charms, decor items, and paintings to choose from. If you see anything you like, or have an idea of something you would like, feel free to contact me <a href = "#contact-form">here</a>. 
         <a id = "#who"><h3 id="who"><u>Who am I?</u></h3></a>
         <p id="content-who"> Born and raised in Nova Scotia Canada, I have always loved two things. Spending my time outdoors and creating beautiful things. However, as someone living with <a href = "https://en.wikipedia.org/wiki/Borderline_personality_disorder"><strong id="bpd">borderline personality disorder</a>.</strong> This disorder is widely misunderstood and difficult to treat. However, with time (<i>30+ years</i>) and research (<i>7 years obtaining an undergrad degree in psychology</i>), I am beginning to understand myself. **insert laugh**<br/>
         One of the biggest lessons I learned is that nature is healing. The only thing that consistently keeps me feeling grounded is being near nature. Since I am lucky enough to live in Nova Scotia I am abe to do this on a regular basis; I can spend time camping in the woods, kayaking on numerous lakes and rivers, hiking amazing seaside trails, or soaking in the sun at one of our amazing beaches.<br/>
         The other thing I learned is that being able to do what I love, while also keeping the lights on, was possibly a matter of life and death as far as my mental health was concerned. So I decided to learn skills that I could do anywhere I wanted to be. I can collect beautiful flowers, stones, and shells to work into a project; I can sit at a bench designing my next creation; I can paint or make charms on the weekends when I am visinting my family and things get quiet; or, I can write websites sitting by a river with no internet access (<i>like I'm doing right now</i>).</p>
     <a id="#why"><h3 id="why"> <u>What's the Point?</u></h3></a>
-        <p id="content-why"> Mental health services, like all other health services in Nova scotia, are at a crisis point. I would like to be able to help those in need and donate $1 from the sale of each item to small organizations in Nova Scotia that offer mental health support in rural communities. While all donations raised will go towatds mental health organizations, you will be able to choose from a variety of organizations. Also, you will be able to see a daily update of donations so that you can watch the amount grow.</p>
-    <a id="#order"><h3 id ="order"><u>How to Order</u></h3></a>
-        <p id="content-order"> </p>
+        <p id="content-why"> Mental health services, like all other health services in Nova scotia, are at a crisis point. I would like to be able to help those in need and donate $1 from the sale of each item to small organizations in Nova Scotia that offer mental health support in rural communities. While all donations raised will go towatds mental health, you will be able to choose from a variety of organizations. Also, you will be able to see a daily update of donations so that you can watch the amount grow.</p>
+    <a id="#contact-order"><h3 id ="contact"><u>Contact Me</u></h3></a>
+        <div id="container1">
+            <form action="action_page.php">
+                <label for="fname">First Name</label>
+                <label type="text" id="fname">First Name</label><br/>
+                <label for="lname">Last Name</label>
+                <label type="text" id="lname" name="lastname">Last Name</label><br/>
+                <label for="country">Country</label>
+                    <select name="Canada" id="country">Canada</select>
+                    <select name="United States" id="country">United States</select>
+                    <select name="Other" id="country">Other</select><br/> 
+                <label for="subject">Subject</label>  
+                <textarea id="subject" name="subject">Write something here...</textarea><br/>
+            </form>
+        </div>
     <a id="paintings"><h2>Paintings</h2></a>
     <a id="charms"><h2>Charms</h2></a>
     <a id="necklaces"><h2>Necklaces</h2></a>
     <a id="decor"><h2>Home Decor</h2></a>
+    <h2 id="shopping-decor">DECOR</h2>
+    <div id="decor1">
+        <img id="cube1-picture" src="20240906_185700.jpg" alt="clear resin cube with natural quartz crystal">
+            <h1>CRYSTAL CLEAR CUBE</h1>
+            <p class="price">$14.99</p>
+            <p>Clear cube with a beautiful purple layer on the base. Made with natural Nova Scotia Quartz and Amythest.</p>
+            <p><button>Add to Cart</button></p>
+    </div>
     </body>
 </html>
